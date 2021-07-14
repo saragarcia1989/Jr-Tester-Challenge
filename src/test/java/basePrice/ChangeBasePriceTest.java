@@ -4,15 +4,17 @@ import base.BaseTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+//Change Base Price value to 5
+
 public class ChangeBasePriceTest extends BaseTests {
 
     @Test
     public void testChangeBasePriceValue() {
 
         homePage.hoverOverBasePrice();
-        homePage.clickPencilIcon();
+        homePage.clickBasePricePencilIcon();
         homePage.inputBasePriceValue("5");
         homePage.clickCheckIcon();
-        Assert.assertEquals(homePage.getTotal(), "5.00");
+        Assert.assertEquals(homePage.sumPrices(homePage.getPrices()), homePage.getTotal());
     }
 }

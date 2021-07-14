@@ -22,8 +22,8 @@ public class BaseTests {
         homePage = new HomePage(driver);
     }
 
-//    @AfterTest
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void tearDown() {
+        driver.quit();
+    }
 }
