@@ -9,6 +9,8 @@ import java.util.ArrayList;
 
 public class EditComponentPrice2Test extends BaseTests {
 
+//    Edit price component: Alloy surcharge
+
     @Test
     public void editPrice2() {
 
@@ -24,11 +26,19 @@ public class EditComponentPrice2Test extends BaseTests {
             homePage.enterNewLabel(componentObject);
         }
 
+        // Hover row
         homePage.hoverOverComponent("Alloy surcharge");
+
+        // Click on ‘Pencil’ icon
         homePage.clickEditPencilIcon("Alloy surcharge");
+
+        // Enter new value: 1.79
         homePage.editPrice(new ComponentObject("Alloy surcharge", "1.79"));
+
+        // Click on ‘Check’ icon
         homePage.clickEditCheckIcon();
 
+        // Expected Results A: displayed sum shows correct sum
         Assert.assertEquals(homePage.sumPrices(homePage.getPrices()), homePage.getTotal());
     }
 }

@@ -9,9 +9,13 @@ import java.util.ArrayList;
 
 public class RemovePriceComponentTest extends BaseTests {
 
+
+//    Remove price component: Internal surcharge
+
     @Test
     public void removePriceComponent() {
 
+        // Add list of the components
         ArrayList<ComponentObject> arraylist = new ArrayList<>();
 
         arraylist.add(new ComponentObject("Alloy surcharge", "2.15"));
@@ -24,10 +28,13 @@ public class RemovePriceComponentTest extends BaseTests {
             homePage.enterNewLabel(componentObject);
         }
 
+        // Hover row
         homePage.hoverOverComponent("Internal surcharge");
 
+        // Click on ‘Trash’ icon
         homePage.clickTrashIcon("Internal surcharge");
 
+        // Displayed sum shows correct sum
         Assert.assertEquals(homePage.sumPrices(homePage.getPrices()), homePage.getTotal());
     }
 }

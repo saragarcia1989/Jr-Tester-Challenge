@@ -14,6 +14,9 @@ import static org.testng.Assert.assertEquals;
 
 public class EditComponentTest extends BaseTests {
 
+
+    //  Edit price component: Storage surcharge
+
     @Test
     public void editComponent() {
 
@@ -31,11 +34,23 @@ public class EditComponentTest extends BaseTests {
             homePage.enterNewLabel(componentObject);
         }
 
+        //  Hover row
         homePage.hoverOverComponent("Storage surcharge");
+
+        //  Click on ‘Pencil’ icon
         homePage.clickEditPencilIcon("Storage surcharge");
+
+        //  Enter new label: ‘T’
         homePage.editLabel(new ComponentObject("T", "0.3"));
+
+        //  Verify expected results: Label input validation
+        //  Labels have to contain at least 2 characters
         assertEquals(homePage.getWarningText(), "This label is too short!");
+
+        //  Click on ‘Check’ icon
         homePage.clickEditCheckIcon();
+
+        //  If input is invalid, restore last valid state
         Assert.assertTrue(componentsList.get(4).getComponentName().matches(originalName), ">>>Different name<<<");
     }
 }

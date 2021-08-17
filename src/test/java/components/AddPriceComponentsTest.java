@@ -10,6 +10,26 @@ import java.util.ArrayList;
 
 public class AddPriceComponentsTest extends BaseTests {
 
+//    Add all price components from Testdata:
+//    Testdata
+//    Price components
+//    Alloy surcharge: 2.15
+//    Scrap surcharge: 3.14
+//    Internal surcharge: 0.7658
+//    External surcharge: 1
+//    Storage surcharge: 0.3
+
+//    Click on label input (left)
+//    Enter new label
+//    Click on value input (right)
+//    Enter new value
+//    Click on ‘Check’ icon
+//    Expected Results:
+//      - Displayed values of price components are rounded correctly
+//      - Values always show 1 or 2 decimal digits
+//      - If value has no decimal digits, show a 0 as decimal digit
+//      - If value has more than 2 decimal digits, round to 2 decimal digits
+
     @Test
     public void addComponentsTest() {
 

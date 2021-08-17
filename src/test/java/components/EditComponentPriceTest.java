@@ -2,14 +2,21 @@ package components;
 
 import base.BaseTests;
 import org.testng.Assert;
-import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 import pages.ComponentObject;
 
 import java.util.ArrayList;
 
 public class EditComponentPriceTest extends BaseTests {
+
+
+//    Edit price component: Scrap surcharge
+//    Click on ‘Pencil’ icon
+//    Enter new value: -2.15
+//    Click on ‘Check’ icon
+//    Verify Expected Results: Value input validation
+//Values cannot be negative
+//If input is invalid, restore last valid state
 
     @Test
     public void editPrice() {
@@ -27,11 +34,23 @@ public class EditComponentPriceTest extends BaseTests {
             homePage.enterNewLabel(componentObject);
         }
 
+        //  Hover row
         homePage.hoverOverComponent("Scrap surcharge");
+
+        //  Click on ‘Pencil’ icon
         homePage.clickEditPencilIcon("Scrap surcharge");
+
+        //  Enter new value: -2.15
         homePage.editPrice(new ComponentObject("Scrap surcharge", "-2.15"));
+
+        //  Verify Expected Results: Value input validation
+        //  Values cannot be negative
         Assert.assertEquals(homePage.getWarningText(), "Cannot be negative!");
+
+        // Click on ‘Check’ icon
         homePage.clickEditCheckIcon();
+
+        // If input is invalid, restore last valid state
         Assert.assertTrue(componentList.get(1).getComponentPrice().matches(originalPrice), ">>>Different price<<<");
     }
 }
