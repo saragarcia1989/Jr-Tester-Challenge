@@ -1,24 +1,19 @@
 package components;
 
 import base.BaseTests;
-
 import org.testng.Assert;
-
 import org.testng.annotations.Test;
-
 import pages.ComponentObject;
-
 import java.util.ArrayList;
-
 import static org.testng.Assert.assertEquals;
 
-public class EditComponentTest extends BaseTests {
+public class EditComponentNameTest extends BaseTests {
 
 
-    //  Edit price component: Storage surcharge
+    //  Edit component name: Storage surcharge
 
     @Test
-    public void editComponent() {
+    public void editComponentName() {
 
         String originalName = "Storage surcharge";
 

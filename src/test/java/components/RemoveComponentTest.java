@@ -7,13 +7,13 @@ import pages.ComponentObject;
 
 import java.util.ArrayList;
 
-public class RemovePriceComponentTest extends BaseTests {
+public class RemoveComponentTest extends BaseTests {
 
 
-//    Remove price component: Internal surcharge
+//    Remove component: Internal surcharge
 
     @Test
-    public void removePriceComponent() {
+    public void removeComponentTest() {
 
         // Add list of the components
         ArrayList<ComponentObject> arraylist = new ArrayList<>();

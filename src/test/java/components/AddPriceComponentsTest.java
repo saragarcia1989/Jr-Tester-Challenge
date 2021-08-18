@@ -4,14 +4,14 @@ import base.BaseTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.ComponentObject;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class AddPriceComponentsTest extends BaseTests {
 
-//    Add all price components from Testdata:
-//    Testdata
+//    This is common for all the tests in this class.
+//    Add the next components and their prices:
+
 //    Price components
 //    Alloy surcharge: 2.15
 //    Scrap surcharge: 3.14
@@ -19,16 +19,8 @@ public class AddPriceComponentsTest extends BaseTests {
 //    External surcharge: 1
 //    Storage surcharge: 0.3
 
-//    Click on label input (left)
-//    Enter new label
-//    Click on value input (right)
-//    Enter new value
-//    Click on ‘Check’ icon
-//    Expected Results:
-//      - Displayed values of price components are rounded correctly
-//      - Values always show 1 or 2 decimal digits
-//      - If value has no decimal digits, show a 0 as decimal digit
-//      - If value has more than 2 decimal digits, round to 2 decimal digits
+
+    // This test verifies values always show 1 or 2 decimal digits
 
     @Test
     public void addComponentsTest() {
@@ -53,6 +45,7 @@ public class AddPriceComponentsTest extends BaseTests {
         }
     }
 
+    // This test verifies if value has no decimal digits, show a 0 as decimal digit
 
     @Test
     public void addComponentsTest2() {
@@ -75,6 +68,9 @@ public class AddPriceComponentsTest extends BaseTests {
             Assert.assertEquals(leftOver, ".0", "given number doesn't end with '.0'");
         }
     }
+
+
+    // This test verifies if value has no decimal digits, show a 0 as decimal digit
 
     @Test
     public void addComponentsTest3() {

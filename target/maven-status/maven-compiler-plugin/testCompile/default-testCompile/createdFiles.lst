@@ -1,0 +1,7 @@
+components\RemoveComponentTest.class
+components\EditComponentPriceTest2.class
+components\EditComponentNameTest.class
+base\BaseTests.class
+basePrice\ChangeBasePriceTest.class
+components\EditComponentPriceTest.class
+components\AddPriceComponentsTest.class

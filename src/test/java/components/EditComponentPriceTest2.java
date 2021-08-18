@@ -7,7 +7,7 @@ import pages.ComponentObject;
 
 import java.util.ArrayList;
 
-public class EditComponentPrice2Test extends BaseTests {
+public class EditComponentPriceTest2 extends BaseTests {
 
 //    Edit price component: Alloy surcharge
 
@@ -38,7 +38,7 @@ public class EditComponentPrice2Test extends BaseTests {
         // Click on ‘Check’ icon
         homePage.clickEditCheckIcon();
 
-        // Expected Results A: displayed sum shows correct sum
+        // Expected results: displayed sum shows correct sum
         Assert.assertEquals(homePage.sumPrices(homePage.getPrices()), homePage.getTotal());
     }
 }

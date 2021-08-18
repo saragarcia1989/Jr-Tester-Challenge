@@ -11,15 +11,9 @@ public class EditComponentPriceTest extends BaseTests {
 
 
 //    Edit price component: Scrap surcharge
-//    Click on ‘Pencil’ icon
-//    Enter new value: -2.15
-//    Click on ‘Check’ icon
-//    Verify Expected Results: Value input validation
-//Values cannot be negative
-//If input is invalid, restore last valid state
 
     @Test
-    public void editPrice() {
+    public void editPriceTest() {
         ArrayList<ComponentObject> componentList = new ArrayList<>();
 
         String originalPrice = "3.14";
@@ -43,7 +37,7 @@ public class EditComponentPriceTest extends BaseTests {
         //  Enter new value: -2.15
         homePage.editPrice(new ComponentObject("Scrap surcharge", "-2.15"));
 
-        //  Verify Expected Results: Value input validation
+        //  Verify expected results: Value input validation
         //  Values cannot be negative
         Assert.assertEquals(homePage.getWarningText(), "Cannot be negative!");
 

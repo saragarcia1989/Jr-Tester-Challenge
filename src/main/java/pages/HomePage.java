@@ -128,7 +128,7 @@ public class HomePage {
     }
 
 
-    public double sumPrices(List<Double> list){
+    public double sumPrices(List<Double> list) {
 
         double sum = list.stream().mapToDouble(Double::doubleValue).sum();
 
@@ -138,11 +138,16 @@ public class HomePage {
 
     public void enterNewLabel(ComponentObject componentObject) {
 
+        //    Click on label input (left)
         driver.findElement(labelBox).click();
         driver.findElement(labelBox).clear();
+        //    Enter new label
         driver.findElement(labelBox).sendKeys(componentObject.getComponentName());
+        //    Click on value input (right)
         driver.findElement(labelValueInput).clear();
+        //    Enter new value
         driver.findElement(labelValueInput).sendKeys(componentObject.getComponentPrice());
+        //    Click on ‘Check’ icon
         driver.findElement(labelCheckIcon).click();
 
     }

@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee16d327-b69a-4b33-9932-38ff1e2e7b0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basePrice/ChangeBasePriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePrice/ChangeBasePriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/components/AddPriceComponentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/AddPriceComponentsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/components/EditComponentPrice2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/EditComponentPrice2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/components/EditComponentPrice2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/EditComponentPriceTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/components/EditComponentPriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/EditComponentPriceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/components/EditComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/EditComponentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/components/RemovePriceComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/RemovePriceComponentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/components/EditComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/EditComponentNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/components/RemovePriceComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/RemoveComponentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/vite_app.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-basePrice.ChangeBasePriceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-basePrice.ChangeBasePriceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/vite_app.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/components/EditComponentTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,43 +60,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/basePrice/ChangeBasePriceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/components/AddPriceComponentsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2337">
+              <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,17 +107,20 @@
         <option value="$PROJECT_DIR$/src/test/java/components/editComponentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/qwe.java" />
         <option value="$PROJECT_DIR$/src/test/java/basePrice/qweqwe.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/base/BaseTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/basePrice/ChangeBasePriceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/components/AddPriceComponentsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/components/RemovePriceComponentTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/base/BaseTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/components/EditComponentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/components/EditComponentNameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/components/RemovePriceComponentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/components/RemoveComponentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/components/EditComponentPriceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/components/EditComponentPrice2Test.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/components/EditComponentPriceTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/components/AddPriceComponentsTest.java" />
       </list>
     </option>
   </component>
@@ -168,9 +161,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="291" />
-    <option name="y" value="56" />
-    <option name="width" value="889" />
+    <option name="x" value="290" />
+    <option name="y" value="55" />
+    <option name="width" value="890" />
     <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -258,7 +251,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1629191904919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1629282284133" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../webdriver_java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -282,7 +275,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ChangeBasePriceTest.testChangeBasePriceValue">
+  <component name="RunManager" selected="TestNG.AddPriceComponentsTest.addComponentsTest3">
+    <configuration name="AddPriceComponentsTest.addComponentsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vite_app_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="components" />
+      <option name="MAIN_CLASS_NAME" value="components.AddPriceComponentsTest" />
+      <option name="METHOD_NAME" value="addComponentsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddPriceComponentsTest.addComponentsTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vite_app_test" />
       <extension name="coverage">
@@ -301,17 +312,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeBasePriceTest.testChangeBasePriceValue" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddPriceComponentsTest.addComponentsTest3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vite_app_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basePrice.*" />
+          <option name="PATTERN" value="components.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basePrice" />
-      <option name="MAIN_CLASS_NAME" value="basePrice.ChangeBasePriceTest" />
-      <option name="METHOD_NAME" value="testChangeBasePriceValue" />
+      <option name="PACKAGE_NAME" value="components" />
+      <option name="MAIN_CLASS_NAME" value="components.AddPriceComponentsTest" />
+      <option name="METHOD_NAME" value="addComponentsTest3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -319,7 +330,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditComponentPriceTest.editPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EditComponentPriceTest.editPriceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vite_app_test" />
       <extension name="coverage">
         <pattern>
@@ -329,7 +340,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="components" />
       <option name="MAIN_CLASS_NAME" value="components.EditComponentPriceTest" />
-      <option name="METHOD_NAME" value="editPrice" />
+      <option name="METHOD_NAME" value="editPriceTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -337,7 +348,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditComponentTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveComponentTest.removeComponentTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vite_app_test" />
       <extension name="coverage">
         <pattern>
@@ -346,24 +357,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="components" />
-      <option name="MAIN_CLASS_NAME" value="components.EditComponentTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditComponentTest.editComponent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vite_app_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="components.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="components" />
-      <option name="MAIN_CLASS_NAME" value="components.EditComponentTest" />
-      <option name="METHOD_NAME" value="editComponent" />
+      <option name="MAIN_CLASS_NAME" value="components.RemoveComponentTest" />
+      <option name="METHOD_NAME" value="removeComponentTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -373,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ChangeBasePriceTest.testChangeBasePriceValue" />
-        <item itemvalue="TestNG.EditComponentPriceTest.editPrice" />
-        <item itemvalue="TestNG.EditComponentTest.editComponent" />
-        <item itemvalue="TestNG.EditComponentTest" />
+        <item itemvalue="TestNG.AddPriceComponentsTest.addComponentsTest3" />
         <item itemvalue="TestNG.AddPriceComponentsTest.addComponentsTest2" />
+        <item itemvalue="TestNG.AddPriceComponentsTest.addComponentsTest" />
+        <item itemvalue="TestNG.RemoveComponentTest.removeComponentTest" />
+        <item itemvalue="TestNG.EditComponentPriceTest.editPriceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -395,35 +390,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EditComponentPriceTest_editPrice - 2021.07.13 at 11h 30m 02s.xml">
-      <configuration name="EditComponentPriceTest.editPrice" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest2 - 2021.08.17 at 12h 56m 58s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentPriceTest_editPrice - 2021.07.13 at 11h 30m 50s.xml">
-      <configuration name="EditComponentPriceTest.editPrice" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest3 - 2021.08.17 at 12h 57m 20s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest3" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentPriceTest_editPrice - 2021.07.13 at 11h 31m 25s.xml">
-      <configuration name="EditComponentPriceTest.editPrice" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest2 - 2021.08.17 at 13h 00m 37s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentTest_editComponent - 2021.07.13 at 11h 31m 51s.xml">
-      <configuration name="EditComponentTest.editComponent" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest2 - 2021.08.17 at 13h 43m 23s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentTest_editComponent - 2021.07.13 at 11h 32m 36s.xml">
-      <configuration name="EditComponentTest.editComponent" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest2 - 2021.08.17 at 13h 43m 40s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentTest_editComponent - 2021.07.13 at 11h 34m 05s.xml">
-      <configuration name="EditComponentTest.editComponent" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest2 - 2021.08.17 at 13h 44m 28s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentPriceTest_editPrice - 2021.07.13 at 11h 34m 24s.xml">
-      <configuration name="EditComponentPriceTest.editPrice" configurationId="TestNG" />
+    <history-entry file="RemovePriceComponentTest_removePriceComponent - 2021.08.17 at 13h 48m 48s.xml">
+      <configuration name="RemovePriceComponentTest.removePriceComponent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentPriceTest_editPrice - 2021.07.13 at 11h 34m 46s.xml">
-      <configuration name="EditComponentPriceTest.editPrice" configurationId="TestNG" />
+    <history-entry file="RemovePriceComponentTest_removePriceComponent - 2021.08.17 at 13h 56m 20s.xml">
+      <configuration name="RemovePriceComponentTest.removePriceComponent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditComponentPriceTest_editPrice - 2021.07.13 at 11h 35m 08s.xml">
-      <configuration name="EditComponentPriceTest.editPrice" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest2 - 2021.08.17 at 14h 24m 40s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ChangeBasePriceTest_testChangeBasePriceValue - 2021.07.13 at 11h 35m 45s.xml">
-      <configuration name="ChangeBasePriceTest.testChangeBasePriceValue" configurationId="TestNG" />
+    <history-entry file="AddPriceComponentsTest_addComponentsTest2 - 2021.08.17 at 14h 57m 53s.xml">
+      <configuration name="AddPriceComponentsTest.addComponentsTest2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -437,9 +432,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,7 +450,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.407932" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.57648724" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.3654391" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -477,11 +471,18 @@
         <watch expression="componentObject.getComponentName()" />
         <watch expression="price" />
         <watch expression="price" />
-        <watch expression="scrap_surcharge.getText()" />
+        <watch expression="scrap_surcharge.getText()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>scrap_surcharge.getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>price.getText()</expression-string>
@@ -516,24 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="452" selection-start-line="452" selection-end-line="452" />
         </state>
       </provider>
     </entry>
@@ -550,6 +537,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/basePrice/qweqwe.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Expedia/src/test/java/base/FlightsTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="495" selection-start-line="495" selection-end-line="495" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComponentObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -560,27 +581,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="-434">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/components/RemoveComponentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/components/RemovePriceComponentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/components/EditComponentNameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/components/EditComponentPriceTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -589,18 +620,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/components/EditComponentPriceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="654">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/components/EditComponentPrice2Test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/basePrice/ChangeBasePriceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,35 +640,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/basePrice/ChangeBasePriceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/components/EditComponentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="2337">
+          <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -646,21 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/components/AddPriceComponentsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
