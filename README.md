@@ -6,7 +6,7 @@ https://github.com/vinpogo/tset-tester-challenge
 
 
 ## SECOND STEP - Run the Tests
-- requirements : java 14, maven
+- requirements : java 8 or higher, maven
 - browser: tests runnable in chrome
 
 
